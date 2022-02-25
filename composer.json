@@ -11,9 +11,15 @@
     ],
     "require": {
         "php": "^7.2 || ^8.0",
-        "dompdf/dompdf": "^1",
+        "BagasNS/dompdf": "1.1.1",
         "illuminate/support": "^6|^7|^8|^9"
     },
+    "repositories": [
+        {
+            "url": "https://github.com/BagasNS/dompdf.git",
+            "type": "git"
+        }
+    ],
     "require-dev": {
         "orchestra/testbench": "^4|^5|^6|^7",
         "squizlabs/php_codesniffer": "^3.5",
